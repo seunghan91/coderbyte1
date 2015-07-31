@@ -1,10 +1,10 @@
 def LetterChanges(str)
 
+
+
  a=str.tr('a-y', 'b-z')    #=> "ifmmp"
  b=a.tr('aeiou', 'AEIOU')   #=> "*e**o"
-  # code goes here
   return b 
-         
 end
    
 # keep this function call here 
